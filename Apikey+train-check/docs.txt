@@ -1,0 +1,20 @@
+TechCorp Customer Data Policy
+
+1. Customer data is stored securely.
+2. Data is not shared with third parties without consent.
+3. Encryption is used for all sensitive information.
+4. Customers can request deletion of their data.
+
+User Question
+      ↓
+Embeddings (OpenAI)
+      ↓
+Vector DB (Chroma)
+      ↓
+Retriever
+      ↓
+LLM (GPT)
+      ↓
+Memory (Chat History)
+      ↓
+Final Answer
